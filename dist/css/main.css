@@ -24,6 +24,7 @@ h1 {
 .first-section {
   display: flex;
   margin-top: 90px;
+  margin-bottom: 55px;
 }
 
 .description {
@@ -38,7 +39,7 @@ h1 {
 .rates {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 100%;
   margin-left: 17%;
 }
@@ -53,6 +54,7 @@ h1 {
   font-weight: 700;
   font-size: 14px;
   padding: 7px 34px 7px 6px;
+  margin-top: 20px;
   width: 75%;
 }
 
@@ -63,6 +65,14 @@ h1 {
 
 .rate img {
   margin-left: 6.5px;
+}
+
+.rate.second {
+  margin-left: 47px;
+}
+
+.rate.third {
+  margin-left: 94px;
 }
 
 .review-card {
