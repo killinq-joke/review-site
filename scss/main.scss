@@ -17,8 +17,13 @@ body {
 
 h1 {
   color: $magenta;
-  font-size: 45.5px;
+  font-size: 45px;
   font-weight: 700;
+  line-height: 50px;
+}
+
+.information {
+  width: 70%;
 }
 
 .first-section {
@@ -29,12 +34,40 @@ h1 {
 .description {
   color: $dark-grayish-magenta;
   font-weight: 500;
+  font-size: 14px;
+  margin-top: -25px;
+  line-height: 24px;
+  width: 120%;
 }
 
 .rates {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-left: 17%;
+}
+
+.rate {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: $light-grayish-magenta;
+  border-radius: 10px;
   color: $magenta;
   font-weight: 700;
+  font-size: 14px;
+  padding: 7px 34px 7px 6px;
+  width: 75%;
+  
+  p {
+      margin-right: 38px;
+      font-size: 13px;
+  }
+  img {
+      margin-left: 6.5px;
+  }
+  
 }
 
 .review-card {
@@ -45,8 +78,8 @@ h1 {
   padding: 32px 32px;
   border-radius: 10px;
   p {
-      line-height: 22px;
-      font-size: 12.7px;
+    line-height: 22px;
+    font-size: 12.7px;
   }
 }
 
@@ -54,14 +87,14 @@ h1 {
   display: flex;
   justify-content: start;
   align-items: center;
-  
+
   p {
-      line-height: 10px;
-      margin-left: 20px;
+    line-height: 10px;
+    margin-left: 20px;
   }
   img {
-      border-radius: 200px;
-      width: 14%;
+    border-radius: 200px;
+    width: 14%;
   }
 }
 
@@ -84,11 +117,11 @@ h1 {
 }
 
 .second-card {
-    margin-top: 18px;
+  margin-top: 18px;
 }
 
 .third-card {
-    margin-top: 34px;
+  margin-top: 34px;
 }
 
 .attribution {

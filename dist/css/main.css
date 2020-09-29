@@ -12,8 +12,13 @@ body {
 
 h1 {
   color: #502050;
-  font-size: 45.5px;
+  font-size: 45px;
   font-weight: 700;
+  line-height: 50px;
+}
+
+.information {
+  width: 70%;
 }
 
 .first-section {
@@ -24,12 +29,40 @@ h1 {
 .description {
   color: #937b92;
   font-weight: 500;
+  font-size: 14px;
+  margin-top: -25px;
+  line-height: 24px;
+  width: 120%;
 }
 
 .rates {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-left: 17%;
+}
+
+.rate {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: #f7f2f7;
+  border-radius: 10px;
   color: #502050;
   font-weight: 700;
+  font-size: 14px;
+  padding: 7px 34px 7px 6px;
+  width: 75%;
+}
+
+.rate p {
+  margin-right: 38px;
+  font-size: 13px;
+}
+
+.rate img {
+  margin-left: 6.5px;
 }
 
 .review-card {
