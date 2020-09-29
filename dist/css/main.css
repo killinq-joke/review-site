@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Spartan";
+  src: url("https://fonts.google.com/specimen/Spartan");
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 400;
+  margin: 0 165px 0 165px;
+}
+
+h1 {
+  color: #502050;
+  font-size: 45.5px;
+  font-weight: 700;
+}
+
+.first-section {
+  display: flex;
+  margin-top: 90px;
+}
+
+.description {
+  color: #937b92;
+  font-weight: 500;
+}
+
+.rates {
+  background-color: #f7f2f7;
+  color: #502050;
+  font-weight: 700;
+}
+
+.review-card {
+  background-color: #502050;
+  flex-direction: column;
+}
+
+.review-name {
+  color: #f7f2f7;
+  font-weight: 700;
+}
+
+.review-verify {
+  color: #ee68a4;
+}
+
+.review-paragraph {
+  color: #f7f2f7;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=main.css.map */
