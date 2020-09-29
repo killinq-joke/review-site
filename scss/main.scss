@@ -1,6 +1,6 @@
 @font-face {
- font-family: "Spartan";
- src: url("https://fonts.google.com/specimen/Spartan");
+  font-family: "Spartan";
+  src: url("https://fonts.google.com/specimen/Spartan");
 }
 $magenta: hsl(300, 43%, 22%);
 $soft-pink: hsl(333, 80%, 67%);
@@ -9,60 +9,74 @@ $light-grayish-magenta: hsl(300, 24%, 96%);
 $white: hsl(0, 0%, 100%);
 
 body {
-    font-size: 15px;
-    font-family: 'Spartan', sans-serif;
-    font-weight: 400;
-    margin: 0 165px 0 165px;
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+  margin: 0 165px 0 165px;
 }
 
 h1 {
-    color: $magenta;
-    font-size: 45.5px;
-    font-weight: 700;
+  color: $magenta;
+  font-size: 45.5px;
+  font-weight: 700;
 }
 
 .first-section {
-    display: flex;
-    margin-top: 90px;
+  display: flex;
+  margin-top: 90px;
 }
 
 .description {
-    color: $dark-grayish-magenta;
-    font-weight: 500;
+  color: $dark-grayish-magenta;
+  font-weight: 500;
 }
 
 .rates {
-    background-color: $light-grayish-magenta;
-    color: $magenta;
-    font-weight: 700;
+  background-color: $light-grayish-magenta;
+  color: $magenta;
+  font-weight: 700;
 }
 
 .review-card {
-    background-color: $magenta;
-    flex-direction: column;
-    width: 31.5%;
+  background-color: $magenta;
+  flex-direction: column;
+  width: 24.5%;
+  padding: 13px 40px;
+  border-radius: 10px;
+  img {
+    border-radius: 200px;
+  }
+  p {
+      line-height: 20px;
+      font-size: 14px;
+  }
 }
 
-.review-card img {
-    border-radius: 200px;
+.review-info {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  img {
+      width: 15%;
+  }
 }
 
 .review-name {
-    color: $light-grayish-magenta;
-    font-weight: 700;
+  color: $light-grayish-magenta;
+  font-weight: 700;
 }
 
 .review-verify {
-    color: $soft-pink;
+  color: $soft-pink;
 }
 
 .review-paragraph {
-    color: $light-grayish-magenta;
+  color: $light-grayish-magenta;
 }
 
 .second-section {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .attribution {
