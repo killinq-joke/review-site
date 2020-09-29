@@ -35,6 +35,11 @@ h1 {
 .review-card {
   background-color: #502050;
   flex-direction: column;
+  width: 31.5%;
+}
+
+.review-card img {
+  border-radius: 200px;
 }
 
 .review-name {
@@ -48,6 +53,11 @@ h1 {
 
 .review-paragraph {
   color: #f7f2f7;
+}
+
+.second-section {
+  display: flex;
+  justify-content: space-between;
 }
 
 .attribution {
