@@ -10,6 +10,12 @@ body {
   margin: 0 165px 0 165px;
 }
 
+@media (max-width: 375px) {
+  body {
+    margin: 0;
+  }
+}
+
 h1 {
   color: #502050;
   font-size: 45px;

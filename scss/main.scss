@@ -2,6 +2,9 @@
   font-family: "Spartan";
   src: url("https://fonts.google.com/specimen/Spartan");
 }
+
+$iphone: 375px;
+
 $magenta: hsl(300, 43%, 22%);
 $soft-pink: hsl(333, 80%, 67%);
 $dark-grayish-magenta: hsl(303, 10%, 53%);
@@ -13,6 +16,9 @@ body {
   font-family: "Spartan", sans-serif;
   font-weight: 400;
   margin: 0 165px 0 165px;
+  @media (max-width: $iphone) {
+    margin: 0;
+  }
 }
 
 h1 {
