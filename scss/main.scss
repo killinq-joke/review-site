@@ -17,7 +17,7 @@ body {
   font-weight: 400;
   margin: 0 165px 0 165px;
   @media (max-width: $iphone) {
-    margin: 0;
+    margin: 0px 24px;
   }
 }
 
@@ -26,16 +26,28 @@ h1 {
   font-size: 45px;
   font-weight: 700;
   line-height: 50px;
+  @media (max-width: $iphone) {
+    text-align: center;
+    font-size: 30px;
+    line-height: 33px;
+    margin-top: -10px;
+  }
 }
 
 .information {
   width: 70%;
+  @media (max-width: $iphone) {
+    width: 100%;
+  }
 }
 
 .first-section {
   display: flex;
   margin-top: 90px;
   margin-bottom: 55px;
+  @media (max-width: $iphone) {
+    flex-direction: column;
+  }
 }
 
 .description {
@@ -96,6 +108,9 @@ h1 {
     line-height: 22px;
     font-size: 12.7px;
   }
+  @media (max-width: $iphone) {
+      width: 80%;
+  }
 }
 
 .review-info {
@@ -129,6 +144,9 @@ h1 {
 .second-section {
   display: flex;
   justify-content: space-between;
+  @media (max-width: $iphone) {
+    flex-direction: column;
+  }
 }
 
 .second-card {
