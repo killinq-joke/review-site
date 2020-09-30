@@ -13,13 +13,17 @@ $white: hsl(0, 0%, 100%);
 
 html {
   overflow: hidden;
+  background: url("/dist/images/background.svg") no-repeat;
+  background-size: cover;
   @media (max-width: $iphone) {
     overflow: auto;
     overflow-x: hidden;
+    background: $white;
   }
 }
 
-body {
+
+.container {
   font-size: 15px;
   font-family: "Spartan", sans-serif;
   font-weight: 400;
