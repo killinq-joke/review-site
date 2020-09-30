@@ -68,6 +68,8 @@ h1 {
 @media (max-width: 375px) {
   .description {
     margin-top: 0;
+    width: 100%;
+    text-align: center;
   }
 }
 
@@ -82,6 +84,7 @@ h1 {
 @media (max-width: 375px) {
   .rates {
     margin: 0;
+    margin-bottom: -7px;
   }
 }
 
@@ -169,6 +172,8 @@ h1 {
 @media (max-width: 375px) {
   .review-card {
     width: 80%;
+    height: 180px;
+    margin-bottom: 20px;
   }
 }
 
