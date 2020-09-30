@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1440 1024" style="enable-background:new 0 0 1440 1024;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);stroke:url(#SVGID_2_);stroke-miterlimit:10;}
+	.st1{fill:url(#SVGID_3_);stroke:url(#SVGID_4_);stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="468.2857" y1="396.2619" x2="-1.7143" y2="-5.4048">
+	<stop  offset="0.1585" style="stop-color:#F7F2F7"/>
+	<stop  offset="0.646" style="stop-color:#FBF8FB"/>
+	<stop  offset="0.9655" style="stop-color:#FFFFFF"/>
+</linearGradient>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="653.0535" y1="599.0764" x2="14.9465" y2="-36.0764">
+	<stop  offset="0.3471" style="stop-color:#F7F2F7"/>
+	<stop  offset="0.4644" style="stop-color:#3D3D3C"/>
+</linearGradient>
+<rect x="-12.5" y="-7.5" class="st0" width="693" height="578"/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="1244.4814" y1="792.1242" x2="549.7962" y2="198.4393" gradientTransform="matrix(-1 0 0 -1 1951 1245)">
+	<stop  offset="0.1585" style="stop-color:#F7F2F7"/>
+	<stop  offset="0.646" style="stop-color:#FBF8FB"/>
+	<stop  offset="0.9655" style="stop-color:#FFFFFF"/>
+</linearGradient>
+<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="1515.4891" y1="1089.8156" x2="576.5109" y2="155.1844" gradientTransform="matrix(-1 0 0 -1 1951 1245)">
+	<stop  offset="0.3471" style="stop-color:#F7F2F7"/>
+	<stop  offset="0.4644" style="stop-color:#3D3D3C"/>
+</linearGradient>
+<polygon class="st1" points="370.5,221.5 1439.5,221.5 1439.5,1023.5 370.5,1023.5 "/>
+<path class="st2" d="M1440,0H532c0,0-61.42,135.11-121.5,141.5c-47,5-270,148-270,148s-49.67,33.02-73,39
+	c-39,10-67.5,13.17-67.5,13.17V1024h397c0,0,83.69-167.99,120.5-205.5c53-54,183.82-149.96,355-187c171-37,160-97,160-97
+	s63-249.67,407.5-297.83"/>
+</svg>
