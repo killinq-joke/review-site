@@ -11,6 +11,14 @@ $dark-grayish-magenta: hsl(303, 10%, 53%);
 $light-grayish-magenta: hsl(300, 24%, 96%);
 $white: hsl(0, 0%, 100%);
 
+html {
+  overflow: hidden;
+  @media (max-width: $iphone) {
+    overflow: auto;
+    overflow-x: hidden;
+  }
+}
+
 body {
   font-size: 15px;
   font-family: "Spartan", sans-serif;
