@@ -5,7 +5,7 @@
 
 html {
   overflow: hidden;
-  background: url("/dist/images/background.svg") no-repeat;
+  background: url("./images/background.svg") no-repeat;
   background-size: cover;
 }
 
