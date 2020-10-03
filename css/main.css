@@ -15,6 +15,20 @@ html {
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  html html {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    -webkit-transform-origin: left top;
+            transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+}
+
 body {
   background: url("./images/background.svg") no-repeat;
   background-size: cover;
@@ -303,29 +317,5 @@ h1 {
 
 .attribution a {
   color: #3e52a3;
-}
-
-@-ms-viewport {
-  width: device-width;
-  zoom: 1;
-  min-zoom: 0.5;
-  max-zoom: 3;
-  user-zoom: fixed;
-}
-
-@-o-viewport {
-  width: device-width;
-  zoom: 1;
-  min-zoom: 0.5;
-  max-zoom: 3;
-  user-zoom: fixed;
-}
-
-@viewport {
-  width: device-width;
-  zoom: 1;
-  min-zoom: 0.5;
-  max-zoom: 3;
-  user-zoom: fixed;
 }
 /*# sourceMappingURL=main.css.map */
